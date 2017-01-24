@@ -13,13 +13,15 @@
         <div class="container">
             <img class="header_logo" src="img/logo.png" alt="Логотип Barbershop" />
             
-            <ul class="header_nav">
-                <li><a href="#">Информация</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Прайс-лист</a></li>
-                <li><a class="header_nav_active" href="#">Магазин</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a class="header_nav_active" href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
             
             <a class="header_enter" href="#"><img src="img/enter.png" alt="" width="20" height="20" />Вход</a>
         </div>
@@ -28,7 +30,7 @@
     <!-- CENTER -->
     <div class="main">
         <div class="container">
-            <h1 class="main_header">Набор для путешествий "Baxter of California"</h1>
+            <h1 class="main_title">Набор для путешествий "Baxter of California"</h1>
             
             <ul class="main_breadcrumbs">
                 <li><a href="#">Главная</a></li>
@@ -44,9 +46,15 @@
                         <img src="img/baxter_3.jpg" alt="Фото baxter 3" width="700" height="700" />
                     </div>
                     <figure class="product_slider">
-                        <img src="img/baxter_1.jpg" alt="Фото baxter 1" width="200" height="200" />
-                        <img src="img/baxter_2.jpg" alt="Фото baxter 2" width="200" height="200" />
-                        <img src="img/baxter_3.jpg" alt="Фото baxter 3" width="200" height="200" />
+                        <a href="#">
+                            <img src="img/baxter_1.jpg" alt="Фото baxter 1" width="200" height="200" />
+                        </a>
+                        <a href="#">
+                            <img src="img/baxter_2.jpg" alt="Фото baxter 2" width="200" height="200" />
+                        </a>
+                        <a href="#">
+                            <img src="img/baxter_3.jpg" alt="Фото baxter 3" width="200" height="200" />
+                        </a>
                     </figure>
                 </div>
                 
@@ -70,7 +78,7 @@
                     
                     <div class="product_component">
                         <p>В набор входят:</p>
-                        <ul class="product_component_list">
+                        <ul class="product_list">
                             <li>Средство для умывания (50 мл)</li>
                             <li>Увлажняющий крем (50 мл)</li>
                             <li>Крем для бритья (50 мл)</li>
@@ -95,14 +103,14 @@
             
             <div class="footer_social">
                 <p>Давайте дружить!</p>
-                <a href="#"><img src="img/vk.png" alt="Vkontakte" /></a>
-                <a href="#"><img src="img/fb.png" alt="Facebook" /></a>
-                <a href="#"><img src="img/insta.png" alt="Instagram" /></a>
+                <a class="button" href="#"><img src="img/vk.png" alt="Vkontakte" /></a>
+                <a class="button" href="#"><img src="img/fb.png" alt="Facebook" /></a>
+                <a class="button" href="#"><img src="img/insta.png" alt="Instagram" /></a>
             </div>
             
             <div class="footer_developer">
                 <p>Разработано:</p>
-                <a href="#">htmlacademy.ru</a>
+                <a class="button" href="#">htmlacademy.ru</a>
             </div>
         </div>
     </footer>
