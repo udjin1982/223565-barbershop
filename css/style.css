@@ -1,1 +1,16 @@
 /* font-family: 'PT Sans Narrow', sans-serif; */
+
+body {
+    font: 700 14px/18px 'PT Sans Narrow', sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.main_caption {
+    font-size: 24px;
+    line-height: 30px;
+}
